@@ -7,10 +7,10 @@ Should be created application for interaction between mentor and mentee. The mai
 
 **1.Mentor**
 - 1.1 Get mentor
-- **GET/mentors/{id}** 
-- 
+ - **GET/mentors/{id}** 
+
 - 1.2 Create mentor
-- **POST /mentors** 
+ - **POST /mentors** 
 - 
  | Name | Type | Description |
  | ---- | ---- | ----------- |
