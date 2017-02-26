@@ -16,7 +16,7 @@ Should be created application for interaction between mentor and mentee. The mai
    | ---- | ---- | ----------- |
    | firstName | String | First name of mentor |
    | lastName | String | Last name of mentor |
-   | email | String | Primary email of user |
+   | email | String | Primary email of mentor |
    | level | String | There are levels: D1, D2, D3, D4, D5 |
    | mainSkill | String | Main skill, ex: Java, Java Script, C# … |
      
@@ -38,9 +38,21 @@ Should be created application for interaction between mentor and mentee. The mai
    | id | int | Identificator of mentor |
    | firstName | String | First name of mentor |
    | lastName | String | Last name of mentor |
-   | email | String | Primary email of user |
+   | email | String | Primary email of mentor |
    | level | String | There are levels: D1, D2, D3, D4, D5 |
    | mainSkill | String | Main skill, ex: Java, Java Script, C# … |
+     
+     ```sh
+     {
+         "id": 100,
+         "firstName": "MentorFirstName",
+         "lastName": " MentorLastName ",
+         "email": "MentorFirstName_MentorLastName@epam.com",
+         "level": "D4",
+         "mainSkill": "Java"
+     }
+     ```
+
  
 - 1.4 Delete mentor
  - **DELETE /mentors/{id}** 
@@ -52,8 +64,50 @@ Should be created application for interaction between mentor and mentee. The mai
 - 2.2 Create mentee
  - **POST /mentees** 
  
+   | Name | Type | Description |
+   | ---- | ---- | ----------- |
+   | firstName | String | First name of mentee |
+   | lastName | String | Last name of mentee |
+   | email | String | Primary email of mentee |
+   | level | String | There are levels: D1, D2, D3, D4, D5 |
+   | mainSkill | String | Main skill, ex: Java, Java Script, C# … |
+   | idMentor | int | Identificator of mentor |
+     
+     ```sh
+     {
+         "firstName": "MenteeFirstName",
+         "lastName": " MenteeLastName ",
+         "email": "MenteeFirstName_MenteeLastName@epam.com",
+         "level": "D3",
+         "mainSkill": "Java",
+         "idMentor": 100
+     }
+     ```
+
 - 2.3 Update mentee
  - **PUT /mentees** 
+ 
+   | Name | Type | Description |
+   | ---- | ---- | ----------- |
+   | id | int | Identificator of mentee |
+   | firstName | String | First name of mentee |
+   | lastName | String | Last name of mentee |
+   | email | String | Primary email of mentee |
+   | level | String | There are levels: D1, D2, D3, D4, D5 |
+   | mainSkill | String | Main skill, ex: Java, Java Script, C# … |
+   | idMentor | int | Identificator of mentor |
+     
+     ```sh
+     {
+         "id": 200,
+         "firstName": "MenteeFirstName",
+         "lastName": " MenteeLastName ",
+         "email": "MenteeFirstName_MenteeLastName@epam.com",
+         "level": "D3",
+         "mainSkill": "Java",
+         "idMentor": 100
+     }
+     ```
  
 - 2.4 Delete mentee
  - **DELETE /mentees/{id}** 
