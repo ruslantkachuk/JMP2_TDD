@@ -1,8 +1,8 @@
 Test Driven Development
 -----------------------
-****TASK GENERAL INFORMATION:**** should be created application for interaction between mentor and mentee. The main functional interaction between backend and frontend is described as a REST API below.
+**TASK GENERAL INFORMATION:** should be created application for interaction between mentor and mentee. The main functional interaction between backend and frontend is described as a REST API below.
 
 **REST API:**
 
-### 1.Mentor
+# 1.Mentor
 
