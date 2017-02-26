@@ -21,13 +21,13 @@ Should be created application for interaction between mentor and mentee. The mai
    | mainSkill | String | Main skill, ex: Java, Java Script, C# … |
    
 ```sh
-{
-   "firstName": "MentorFirstName",
-  "lastName": " MentorLastName ",
-  "email": "MentorFirstName_MentorLastName@epam.com",
-  "level": "D4",
-  "mainSkill": "Java"
-}
+  {
+    "firstName": "MentorFirstName",
+    "lastName": " MentorLastName ",
+    "email": "MentorFirstName_MentorLastName@epam.com",
+    "level": "D4",
+    "mainSkill": "Java"
+  }
 ```
 
 - 1.3 Update mentor
