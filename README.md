@@ -21,27 +21,30 @@ Should be created application for interaction between mentor and mentee. The mai
    | mainSkill | String | Main skill, ex: Java, Java Script, C# … |
 
 - 1.3 Update mentor
-- **PUT /mentors** 
+ - **PUT /mentors** 
 
- | Name | Type | Description |
- | ---- | ---- | ----------- |
- | id | int | Identificator of mentor |
- | firstName | String | First name of mentor |
- | lastName | String | Last name of mentor |
- | email | String | Primary email of user |
- | level | String | There are levels: D1, D2, D3, D4, D5 |
- | mainSkill | String | Main skill, ex: Java, Java Script, C# … |
+   | Name | Type | Description |
+   | ---- | ---- | ----------- |
+   | id | int | Identificator of mentor |
+   | firstName | String | First name of mentor |
+   | lastName | String | Last name of mentor |
+   | email | String | Primary email of user |
+   | level | String | There are levels: D1, D2, D3, D4, D5 |
+   | mainSkill | String | Main skill, ex: Java, Java Script, C# … |
  
 - 1.4 Delete mentor
-- **DELETE /mentors/{id}** 
+ - **DELETE /mentors/{id}** 
 
 **2.Mentee**
 - 2.1 Get mentee
-- **GET/mentees/{id}** 
+ - **GET/mentees/{id}** 
+ 
 - 2.2 Create mentee
-- **POST /mentees** 
+ - **POST /mentees** 
+ 
 - 2.3 Update mentee
-- **PUT /mentees** 
+ - **PUT /mentees** 
+ 
 - 2.4 Delete mentee
-- **DELETE /mentees/{id}** 
+ - **DELETE /mentees/{id}** 
 
