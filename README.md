@@ -14,3 +14,13 @@ Should be created application for interaction between mentor and mentee. The mai
 - **PUT /mentors** 
 - 1.4 Delete mentor
 - **DELETE /mentors/{id}** 
+
+**2.Mentee**
+- 2.1 Get mentee
+- **GET/mentees/{id}** 
+- 2.2 Create mentee
+- **POST /mentees** 
+- 2.3 Update mentee
+- **PUT /mentees** 
+- 2.4 Delete mentee
+- **DELETE /mentees/{id}** 
