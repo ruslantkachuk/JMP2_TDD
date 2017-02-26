@@ -9,7 +9,13 @@ Should be created application for interaction between mentor and mentee. The mai
 - 1.1 Get mentor
  - **GET /mentors/{id}** 
 
-- 1.2 Create mentor
+- 1.2 Get list of mentor's mentees
+ - **GET /mentors/{id}/mentees** 
+ 
+- 1.3 Get list of mentors by skill
+ - **GET /mentors?skill={skill}**
+ 
+- 1.4 Create mentor
  - **POST /mentors** 
 
    | Name | Type | Description |
@@ -30,7 +36,7 @@ Should be created application for interaction between mentor and mentee. The mai
      }
      ```
 
-- 1.3 Update mentor
+- 1.5 Update mentor
  - **PUT /mentors** 
 
    | Name | Type | Description |
@@ -52,9 +58,8 @@ Should be created application for interaction between mentor and mentee. The mai
          "mainSkill": "Java"
      }
      ```
-
  
-- 1.4 Delete mentor
+- 1.6 Delete mentor
  - **DELETE /mentors/{id}** 
 
 **2.Mentee**
