@@ -1,4 +1,9 @@
 # JMP2_TDD
 Test Driven Development
 -----------------------
-dsds
+**TASK GENERAL INFORMATION:** should be created application for interaction between mentor and mentee. The main functional interaction between backend and frontend is described as a REST API below.
+
+**REST API:**
+
+### 1.Mentor
+
