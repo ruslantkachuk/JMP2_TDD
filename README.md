@@ -8,6 +8,7 @@ Should be created application for interaction between mentor and mentee. The mai
 **1.Mentor**
 - 1.1 Get mentor
 - **GET/mentors/{id}** 
+
 - 1.2 Create mentor
 - **POST /mentors** 
 
@@ -21,6 +22,16 @@ Should be created application for interaction between mentor and mentee. The mai
 
 - 1.3 Update mentor
 - **PUT /mentors** 
+
+ | Name | Type | Description |
+ | ---- | ---- | ----------- |
+ | id | int | Identificator of mentor |
+ | firstName | String | First name of mentor |
+ | lastName | String | Last name of mentor |
+ | email | String | Primary email of user |
+ | level | String | There are levels: D1, D2, D3, D4, D5 |
+ | mainSkill | String | Main skill, ex: Java, Java Script, C# … |
+ 
 - 1.4 Delete mentor
 - **DELETE /mentors/{id}** 
 
