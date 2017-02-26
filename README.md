@@ -19,13 +19,14 @@ Should be created application for interaction between mentor and mentee. The mai
    | email | String | Primary email of user |
    | level | String | There are levels: D1, D2, D3, D4, D5 |
    | mainSkill | String | Main skill, ex: Java, Java Script, C# … |
+     
      ```sh
      {
-       "firstName": "MentorFirstName",
-       "lastName": " MentorLastName ",
-       "email": "MentorFirstName_MentorLastName@epam.com",
-       "level": "D4",
-       "mainSkill": "Java"
+         "firstName": "MentorFirstName",
+         "lastName": " MentorLastName ",
+         "email": "MentorFirstName_MentorLastName@epam.com",
+         "level": "D4",
+         "mainSkill": "Java"
      }
      ```
 
