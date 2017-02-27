@@ -6,8 +6,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class MenteeDto {
-    private int id;
-    private int idMentor;
+    private Integer id;
+    private Integer idMentor;
     private String firstName;
     private String lastName;
     private String email;
