@@ -1,5 +1,6 @@
 package com.jmp.service;
 
+import java.util.Objects;
 import java.util.Optional;
 
 import javax.transaction.Transactional;
@@ -39,7 +40,7 @@ public class MenteeService {
     @Transactional
     public void update(@RequestBody MenteeDto menteeDto) {
         Mentee mentee = menteeRepository.findOne(menteeDto.getId());
-        if (menteeDto.getIdMentor() > 0) {
+        if (Objects.nonNull(menteeDto.getIdMentor())) {
             mentee.setMentor(mentorRepository.findOne(menteeDto.getIdMentor()));
         }
         BeanUtils.copyProperties(menteeDto, mentee);

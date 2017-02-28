@@ -10,6 +10,7 @@ import static org.mockito.Mockito.when;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.ArgumentCaptor;
+import org.mockito.Captor;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
@@ -27,8 +28,9 @@ public class MenteeServiceTest {
     private static final Integer MENTOR_ID = 100;
     private static final Integer MENTEE_ID = 200;
     private static final String MENTEE_EMAIL = "mentee@epam.com";
-    private ArgumentCaptor<Mentee> menteeCaptor = ArgumentCaptor.forClass(Mentee.class);
 
+    @Captor
+    private ArgumentCaptor<Mentee> menteeCaptor;
     @Mock
     private MenteeRepository menteeRepository;
     @Mock

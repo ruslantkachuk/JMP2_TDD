@@ -13,6 +13,7 @@ import org.assertj.core.util.Lists;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.ArgumentCaptor;
+import org.mockito.Captor;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
@@ -30,7 +31,9 @@ public class MentorServiceTest {
     private static final Integer MENTOR_ID = 100;
     private static final String MENTOR_EMAIL = "mentor@epam.com";
     private static final String MENTOR_SKILL = "Java";
-    private ArgumentCaptor<Mentor> mentorCaptor = ArgumentCaptor.forClass(Mentor.class);
+
+    @Captor
+    private ArgumentCaptor<Mentor> mentorCaptor;
     @Mock
     private MentorRepository mentorRepository;
 
