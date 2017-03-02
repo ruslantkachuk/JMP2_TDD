@@ -1,5 +1,12 @@
 Test Driven Development
 -----------------------
+### TECHNOLOGY STACK
+Spring Boot (web, test, jpa), HSQLDB, MariaDB, Mockito, DbUnit, Gradle
+
+**Build project**: gradle build
+**Run tests**: gradle test
+**Run project**: gradle bootRun
+
 ### TASK GENERAL INFORMATION
 Should be created application for interaction between mentor and mentee. The main functional interaction between backend and frontend is described as a REST API below.
 
