@@ -1,4 +1,5 @@
-Test Driven Development [![N|Solid](https://travis-ci.org/ruslantkachuk/JMP2_TDD.svg?branch=master)](https://travis-ci.org/ruslantkachuk/JMP2_TDD.svg?branch=master)
+Test Driven Development
+[![N|Solid](https://travis-ci.org/ruslantkachuk/JMP2_TDD.svg?branch=master)](https://travis-ci.org/ruslantkachuk/JMP2_TDD.svg?branch=master)
 -----------------------
 ### TECHNOLOGY STACK
 Spring Boot (web, test, jpa), HSQLDB, MariaDB, Mockito, DbUnit, Gradle
