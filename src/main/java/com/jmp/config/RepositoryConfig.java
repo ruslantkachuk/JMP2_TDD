@@ -17,7 +17,6 @@ public class RepositoryConfig {
     @Bean
     @ConfigurationProperties(prefix = "spring.datasource")
     public DataSource dataSource() {
-        System.out.print("FUCK");
         return DataSourceBuilder.create().build();
     }
 
