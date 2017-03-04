@@ -19,5 +19,4 @@ public class RepositoryConfig {
     public DataSource dataSource() {
         return DataSourceBuilder.create().build();
     }
-
 }
